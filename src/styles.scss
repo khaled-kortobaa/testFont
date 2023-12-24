@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: noto;
+    src: url('./assets/noto.ttf');
+}
+@font-face {
+    font-family: taj;
+    src: url('./assets/taj.ttf');
+}
+.cont{
+    width: 75%;
+    text-align: center;
+    margin: 50px auto;
+}
+html, body { height: 100%; font-family: noto; }
+body { margin: 0; font-family: noto, "Helvetica Neue", sans-serif !important; font-family: taj, "Helvetica Neue", sans-serif !important; }
+button {  font-family: noto !important; font-family: taj !important; padding: 0 !important;}

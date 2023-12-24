@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    p{
+        margin: 0 !important;
+    }
+}
+figure{
+    margin: 0 !important;
+    padding: 0 !important;
+    img{
+        margin: 0 !important;
+    padding: 0 !important;
+    }
+}
