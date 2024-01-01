@@ -14,6 +14,11 @@ const routes: Routes = [
     path: 'pizza',
     loadComponent: () =>
       import('./pizza/pizza.component').then((m) => m.PizzaComponent),
+  },
+  {
+    path: 'font',
+    loadComponent: () =>
+      import('./font-test/font-test.component').then((m) => m.FontTestComponent),
   }
 ];
 

@@ -1,0 +1,42 @@
+<div class="cont" [ngClass]="selected">
+  <h1>Font-Test</h1>
+  <div class="selector">
+    <mat-form-field>
+        <mat-label>Select an option</mat-label>
+        <mat-select [(value)]="selected" (closed)="send()">
+          <mat-option value="font1">noto</mat-option>
+          <mat-option value="font2">tajwal</mat-option>
+          <mat-option value="font3">calibri</mat-option>
+          <mat-option value="font4">frutiger</mat-option>
+          <mat-option value="font5">future</mat-option>
+          <mat-option value="font6">Lato</mat-option>
+          <mat-option value="font7">Cairo</mat-option>
+          <mat-option value="font8">Readex Pro</mat-option>
+        </mat-select>
+      </mat-form-field>
+  </div>
+  <div class="flex">
+    <div class="content">
+      <h1>English</h1>
+      <p>
+        A platform whose goal is to spread happiness and take the hand of donors
+        towards those
+      </p>
+      <div class="footer">
+        <img src="../../assets/gift.png" alt="" srcset="" />
+        <span>Donate as a gift</span>
+      </div>
+    </div>
+    <div class="content">
+      <h1>عربى</h1>
+      <p>
+        منصة هدفها نشر السعادة والأخذ بيد المتبرعين نحو المحتاجين حول العالم ،
+        معكم يكبر الخير بسم الله نبدأ سعادة جديدة
+      </p>
+      <div class="footer rev">
+        <img src="../../assets/gift.png" alt="" srcset="" />
+        <span>تبرع كـهدية</span>
+      </div>
+    </div>
+  </div>
+</div>
