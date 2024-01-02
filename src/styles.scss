@@ -19,6 +19,10 @@
   font-family: future;
   src: url("./assets/future.ttf");
 }
+@font-face {
+  font-family: araboto;
+  src: url("./assets/araboto.ttf");
+}
 html,
 body {
   height: 100%;
@@ -63,4 +67,7 @@ button {
 }
 .font8 {
   font-family: Readex Pro, "Helvetica Neue", sans-serif !important;
+}
+.font9 {
+  font-family: araboto, "Helvetica Neue", sans-serif !important;
 }
